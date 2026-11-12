@@ -11,7 +11,7 @@ public class Main {
 
     System.out.println("**************************************");
     System.out.println("\nNome do cliente: " + nome);
-    System.out.println("Tipo da conta:" + tipoConta);
+    System.out.println("Tipo da conta: " + tipoConta);
     System.out.println("Saldo atual: R$" + saldo);
     System.out.println("\n**************************************");
 
@@ -33,7 +33,7 @@ public class Main {
         System.out.println("Qual o valor a ser recebido?");
         double valorRecebido = leitura.nextDouble();
         saldo += valorRecebido;
-        System.out.println("Saldo atual: " + saldo);
+        System.out.println("Saldo atual: R$" + saldo);
       } else if (opcaoDesejada == 3) {
         System.out.println("Qual o valor a ser transferido?");
         double valorTransferido = leitura.nextDouble();
@@ -49,5 +49,6 @@ public class Main {
             System.out.println("Operação inválida.");
         }
       }
+      leitura.close();
    }
 }
