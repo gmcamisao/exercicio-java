@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
        Scanner leitura = new Scanner(System.in);
-       String nome = "Pedro Cu";
-       String tipoConta = "corrente";
+       String nome = "Pedro Martins";
+       String tipoConta = "Corrente";
        double saldo = 2500.0;
 
     System.out.println("**************************************");
@@ -18,7 +18,7 @@ public class Main {
     int opcaoDesejada = 0;
 
     while (opcaoDesejada != 4) {
-       System.out.println("\nOperações:");;
+       System.out.println("\nOperações:");
        System.out.println("\n1- Consultar saldo");
        System.out.println("2- Receber valor");
        System.out.println("3- Transferir valor");
